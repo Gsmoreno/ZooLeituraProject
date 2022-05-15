@@ -1,8 +1,13 @@
-function AtivarModal() {
+function AtivarModal(Animal) {
 
-    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
+    var myModal = new bootstrap.Modal(document.getElementById('exempleModal'), {
         keyboard: false
       })
-    myModal.show()
-
+      
+      var caminhoImagem = "./img/cardsCuriosidades/" + Animal + ".png";
+      
+      var modal = document.getElementById("modal-curiosidades");
+      
+      modal.setAttribute('src', caminhoImagem)
+      myModal.show()
 }

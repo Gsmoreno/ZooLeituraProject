@@ -1,61 +1,61 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
-    
+
 }
 
 @keyframes rotating {
     0% {
         transform: rotate(0);
     }
-    100% {
-        transform: rotate(360deg); 
-    }
-} 
 
-html{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+html {
     width: 100vw;
     overflow-x: hidden;
 }
 
-nav{
+nav {
     background-color: #CEE2FF;
     width: 100vw;
 }
 
-.nav{
+.nav {
     justify-content: center;
     align-items: center;
-  
+
 }
 
-nav > ul{
+nav>ul {
     width: 100vw;
 }
 
-#logo{
+#logo {
     height: 15vh;
 }
 
-.sol{
+.sol {
     position: absolute;
 }
 
 
-#texto-logo{
+#texto-logo {
     height: 5vh;
 }
 
-.item{
+.item {
     align-items: center;
-  
+
     display: flex;
     margin-left: 10vw;
     justify-content: space-evenly;
 }
 
-.item > li> button{
+.item>li>button {
     background-color: #F36497;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
@@ -76,7 +76,20 @@ nav > ul{
     overflow: hidden;
 }
 
-.mundo{
+
+/* .fundo-home {
+    width: 350px;
+    height: 114vh;
+    background: rgb(97, 142, 246);
+    background: linear-gradient(180deg, rgba(97, 142, 246, 1) 0%, rgba(15, 188, 255, 1) 53%, rgba(0, 212, 255, 1) 100%);
+    width: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+} */
+
+.mundo {
     display: flex;
     justify-content: center;
     margin-top: 5em;
@@ -86,35 +99,41 @@ nav > ul{
     width: 70vw;
     animation: rotating 15s linear infinite;
     overflow-y: hidden;
-    overflow-x: hidden;    
+    overflow-x: hidden;
 }
 
 #sol-girando {
     animation: rotating 15s linear infinite;
     overflow-y: hidden;
-    overflow-x: hidden;  
-    
+    overflow-x: hidden;
+
     position: relative;
     left: 81em;
 }
 
-.habitat{
+#nuvens {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.habitat {
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 6em;
-    
+
 }
 
-#linha{
+#linha {
     position: absolute;
     height: 4px;
 }
 
 
-.habitat > a > li {
+.habitat>a>li {
     background-color: #F36497;
     border-radius: 10px;
     width: 10vw;
@@ -123,23 +142,28 @@ nav > ul{
     display: flex;
     justify-content: center;
 }
-#opn{
+
+#opn {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
+#exempleModel{
+    overflow: hidden;
+}
+
 /************************** Biomas *****************************/
 
-.lista-cima > li > img{
+.lista-cima>li>img {
     width: 13vw;
     height: 30vh;
     border-radius: 15px;
     margin-top: 10vh;
-    
+
 }
 
-.lista-cima{
+.lista-cima {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -149,7 +173,7 @@ nav > ul{
     padding-top: 1em;
 }
 
-.lista-baixo{
+.lista-baixo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -159,16 +183,16 @@ nav > ul{
     padding-top: 1em;
 }
 
-.lista-baixo > li > img{
+.lista-baixo>li>img {
     width: 13vw;
     height: 30vh;
     border-radius: 15px;
     margin-top: 10vh;
-    
+
 }
 
 /************************** Selva *****************************/
-.fundo-selva{
+.fundo-selva {
     background-image: url("../img/fundos/fundo-selva.png");
     background-repeat: no-repeat;
     background-size: 100vw;
@@ -176,7 +200,7 @@ nav > ul{
 }
 
 
-.Hselva > a > li {
+.Hselva>a>li {
     background-color: #469042;
     border-radius: 10px;
     width: 10vw;
@@ -189,14 +213,14 @@ nav > ul{
 /************************** FIM - SELVA *****************************/
 
 /**************************  OCEANO *****************************/
-.fundo-oceano{
+.fundo-oceano {
     background-image: url("../img/fundos/fundo-oceano.png");
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 114vh;
 }
 
-.Hoceano > a > li {
+.Hoceano>a>li {
     background-color: #07A6D7;
     border-radius: 10px;
     width: 10vw;
@@ -209,14 +233,14 @@ nav > ul{
 /************************** FIM - OCEANO *****************************/
 
 /**************************  DESERTO *****************************/
-.fundo-deserto{
+.fundo-deserto {
     background-image: url("../img/fundos/fundo-deserto.png");
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 114vh;
 }
 
-.Hdeserto > a > li {
+.Hdeserto>a>li {
     background-color: #E37B37;
     border-radius: 10px;
     width: 10vw;
@@ -230,15 +254,14 @@ nav > ul{
 
 /************************** GELO *****************************/
 
-.fundo-gelo
-{
+.fundo-gelo {
     background-image: url(../img/fundos/Fundo-gelo.png);
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 114vh;
 }
 
-.Hgelo > a > li {
+.Hgelo>a>li {
     background-color: #4CBDC6;
     border-radius: 10px;
     width: 10vw;
@@ -251,15 +274,14 @@ nav > ul{
 /************************** FIM - GELO *****************************/
 
 /************************** CEU *****************************/
-.fundo-ceu
-{
+.fundo-ceu {
     background-image: url(../img/fundos/Fundo-ceu.png);
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 114vh;
 }
 
-.Hceu > a > li {
+.Hceu>a>li {
     background-color: #004AAD;
     border-radius: 10px;
     width: 10vw;
@@ -271,9 +293,7 @@ nav > ul{
 
 /************************** FIM - CEU *****************************/
 
-/************************** MODAL LEÂO ****************************/
-
-.modal-content {
+#modal-content {
     display: flex;
     align-items: center;
     justify-content: center;
