@@ -101,14 +101,13 @@ nav>ul {
     overflow-x: hidden;
 }
 
-#sol-girando {
+/* #sol-girando {
     animation: rotating 15s linear infinite;
     overflow-y: hidden;
     overflow-x: hidden;
-
     position: relative;
     left: 81em;
-}
+} */
 
 #nuvens {
     display: flex;
@@ -151,8 +150,11 @@ nav>ul {
 
 #opn-main:hover {
     border: solid 3px #f3f3f3;
-    border-radius: 13px;
+    border-radius: 14px;
     font-size: 1em;
+    -webkit-box-shadow: 0px 1px 5px #f3f3f3;
+    -moz-box-shadow: 0px 1px 5px #f3f3f3;
+    box-shadow: 0px 1px 5px #f3f3f3;
 }
 
 #opn {
@@ -165,8 +167,11 @@ nav>ul {
 
 #opn:hover {
     border: solid 3px #F36497;
-    border-radius: 13px;
+    border-radius: 14px;
     font-size: 1em;
+    -webkit-box-shadow: 0px 1px 8px #F36497;
+    -moz-box-shadow: 0px 1px 8px #F36497;
+    box-shadow: 0px 1px 8px #F36497;
 }
 
 #exempleModel{
@@ -178,10 +183,16 @@ nav>ul {
 #card {
     cursor: pointer;
     transition: 0.2s;
+    -webkit-box-shadow: 0px 1px 7px #8f8f8f;
+    -moz-box-shadow: 0px 1px 7px #8f8f8f;
+    box-shadow: 0px 1px 7px #8f8f8f;
 }
 
 #card:hover {
     border: solid 3px #F36497;
+    -webkit-box-shadow: 0px 1px 10px #F36497;
+    -moz-box-shadow: 0px 1px 10px #F36497;
+    box-shadow: 0px 1px 10px #F36497;
 }
 
 .lista-cima>li>img {
