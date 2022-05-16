@@ -101,14 +101,13 @@ nav>ul {
     overflow-x: hidden;
 }
 
-#sol-girando {
+/* #sol-girando {
     animation: rotating 15s linear infinite;
     overflow-y: hidden;
     overflow-x: hidden;
-
     position: relative;
     left: 81em;
-}
+} */
 
 #nuvens {
     display: flex;
