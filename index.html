@@ -36,9 +36,8 @@
                     class="img-fluid">
             </div>
             <div class="item col-md-4">
-                <li class="nav-item"><button>Como funciona?</button></li>
-                <li class="nav-item"><button>Sobre nós</button></li>
-                <li class="nav-item"><button>Contato</button></li>
+                <li class="nav-item"><button onclick="ModalHeader('ComoFunciona')">Como funciona?</button></li>
+                <li class="nav-item"><button onclick="ModalHeader('SobreNos')">Sobre nós</button></li>
             </div>
         </ul>
     </nav>
@@ -46,9 +45,9 @@
 
 <body>
     <div class="fundo-home">
-        <div class="sol col-md-12">
+        <!-- <div class="sol col-md-12">
             <img src="img/Sol.png" alt="" id="sol-girando" class="img-fluid">
-        </div>
+        </div> -->
         <div class="mundo">
             <img src="img/mundo.png" alt="" id="mundo-girando">
         </div>
@@ -214,7 +213,7 @@
                             alt="Vaca muito fofa rindo pra você" id="card"></li>
                     <li><img onclick="AtivarModal('BoiAlmiscarado')" src="img/cards/BoiAlmisacarado.png"
                             alt="Elefante muito fofo rindo pra você" id="card"></li>
-                    <li><img onclick="AtivarModal('CorujaDoartico')" src="img/cards/CorujaDoartico.png"
+                    <li><img onclick="AtivarModal('CorujaDoArtico')" src="img/cards/CorujaDoartico.png"
                             alt="Onça pintada muito fofo rindo pra você" id="card"></li>
                 </ul>
                 <ul class="lista-baixo col-sm-12">
@@ -293,7 +292,6 @@
     </section>
 </body>
 
-<!-- /Selva/ -->
 <div class="modal fade" id="exempleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div id="modal-content">
@@ -301,6 +299,13 @@
         </div>
     </div>
 </div>
-<!-- /Gelo/ -->
+
+<div class="modal fade" id="exempleModal-aba" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div id="modal-content-aba">
+            <img src="./img/cardsCuriosidades/1.png" id="modal-aba" alt="">
+        </div>
+    </div>
+</div>
 
 </html>
