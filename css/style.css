@@ -343,3 +343,21 @@ nav>ul {
 #modal-curiosidades {
     width: 65vw;
 }
+
+#modal-content-aba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#modal-aba {
+    width: 32vw;
+}
+
+#exempleModal-aba{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+

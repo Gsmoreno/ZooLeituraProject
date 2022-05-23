@@ -15,3 +15,15 @@ function AtivarModal(Animal) {
   modal.setAttribute("src", caminhoImagem);
   myModal.show();
 }
+
+function ModalHeader(Aba) {
+  var myModal = new bootstrap.Modal(document.getElementById("exempleModal-aba"), {
+    keyboard: false,
+  });
+
+  var caminhoImagem = "./img/cards/" + Aba + ".png";
+  var modal = document.getElementById("modal-aba");
+
+  modal.setAttribute("src", caminhoImagem);
+  myModal.show();
+}
