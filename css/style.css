@@ -361,3 +361,21 @@ nav>ul {
     overflow-y: hidden;
 }
 
+@media (min-width: 1366px) {
+    .fundo-deserto {
+        height: 105vh;
+    }
+    .fundo-gelo {
+        height: 105vh;
+    }
+    .fundo-ceu {
+        height: 105vh;
+    }
+    .fundo-oceano {
+        height: 105vh;
+    }
+    .fundo-selva {
+        height: 105vh;
+    }
+}
+
